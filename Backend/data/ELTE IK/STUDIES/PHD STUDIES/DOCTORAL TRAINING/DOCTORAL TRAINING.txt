@@ -1,0 +1,41 @@
+DOCTORAL TRAINING
+ENROLMENT
+REGISTRATION
+COMPLEX EXAM
+DOCTORAL TRAINING
+Our aim is to give regular courses to students and prepare them for obtaining a scientific degree, and to offer them teaching experience in higher education. 
+The objective is to train computer science and info-communication technology experts with professional knowledge based on solid theoretical background. 
+
+The ELTE Doctoral School of Informatics provides PhD education in four doctoral programs:
+
+Doctoral Program of Software and Computer Science
+Doctoral Program of Data Science, Networks, Information Systems
+Doctoral Program of Scientific Computing and Models, Numerical and Symbolic Methods
+Doctoral Program of Informatics Teaching Methodology
+Doctoral Program of Geospatial Information and Spatial Data
+Doctoral Program of IT Solutions in Engineering Sciences
+Discipline: informatics/computer science
+Level: doctoral (PhD) 
+
+Duration of the programme: 8 semesters
+Type of the programme: full-time education
+Finances: limited number of state scholarships, otherwise tuition fee
+Entry requirements: MSc degree and entrance examination 
+Language requirements: one complex (B2) intermediate level state-accredited language exam
+Certificate at the end of the training: pre-degree certificate
+Full credit requirements: 240 credits
+
+Ways of obtaining credits:
+1-4 semester (min. 120 credits, max. 132)
+-credits for courses (min. 24, max. 54)
+-credits for research (min. 66, max. 96)
+-credits for teaching (min. 0, max. 24)
+
+Comprehensive examination/Complex exam- at the end of the 4th semester.
+
+5-8 semester (min. 120, max. 132)
+-credits for research (min. 90, max. 120)
+-professional credits (min. 0, max. 24)
+-credits for teaching (min. 0, max. 24)
+
+For more information regarding the training requirements, please check the Curriculum of ELTE Doctoral School of Informatics.

@@ -1,0 +1,72 @@
+PRIVACY NOTICE
+In accordance with Article 12 (1) of REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (henceforth: GDPR)
+
+Eötvös Loránd University (ELTE) informs you, as data subject, on the processing of your personal data ELTE Faculty of Informatics, EIT Digital Budapest Co-Location Centre, ARISE program campaign.
+
+Who is the Data Controller/Data Processor?
+
+Data controller:
+
+Eötvös Loránd University
+
+Egyetem tér 1-3.
+
+H-1053 Budapest
+
+Responsible department for exercising the rights and fulfilling the obligations: ELTE Farulty of Informatics EIT Digital Budapest Co-Location CentreName and contact details (telephone, e-mail) of the contact person: Marton Bélik, marton.belik@eitdigital.eu  
+Data Processor: No data processor is engaged.
+
+Purpose of processing of data:
+
+- To share information related to the EIT Digital Master School application, application portal
+
+- Contact information related to the application
+
+Data are processed by the University:
+
+1. your surname and first name
+
+2. your electronic contact (e-mail address for contact)
+
+Legal basis for the processing:
+
+Because you have consented to this by registering. You can withdraw your consent at any time. Withdrawal of consent shall not affect the lawfulness of the processing carried out prior to the withdrawal.
+
+Duration of the processing: The data will be processed until November 30, 2020.
+
+Your rights:
+
+Transparent information, communication and modalities for the exercise of the rights of the data subject – In this privacy notice the controller provides information about the circumstances of data processing, e.g.  data controller, purposes, legal basis and duration of data processing, enforceable data subject rights, complaint procedures and available legal remedies for data subjects;
+Right of access by the data subject – You have the right to obtain from the controller confirmation as to whether or not personal data concerning you are being processed, the controller shall provide complete information and a copy of the personal data undergoing processing;
+Right to rectification – You have the right to obtain from the controller the rectification of inaccurate personal data concerning you and you also have the right to have incomplete personal data completed;
+Right to erasure (‘right to be forgotten’) – You can ask for the controller the erasure of your personal data;
+Right to restriction of processing – If you ask, your personal data can’t be processed with the exception of storage;
+Notification obligation regarding rectification or erasure of personal data or restriction of processing –We inform you about the recipients referred to GDPR under the conditions set out in the GDPR;
+Right to data portability (if the controller processes your data on the basis of your consent/contract
+and the processing is carried out by automated means) – You have the right to receive your personal data, which you have provided to a controller, in a structured, commonly used and machine-readable format and you have the right to transmit those data to another controller;
+Right to object –  you can object, at any time to processing of your personal data if the processing is based on a legitimate interest pursued by the controller or by a third party or the processing is necessary for the performance of a task carried out in the public interest or in the exercise of official authority vested in the controller;
+The right not to be subject to a decision based solely on automated processing, including profiling – Tell us, if you are concerned! This right is not relevant if this privacy notice does not contain information about automated decision-making.
+The right to legal remedy – In the case of breach of your rights, you can turn to the data protection officer, to the National Authority for Data Protection and Freedom of Information or you can sue in court.
+Data protection officer of the University:
+
+Office of Data Protection and Strategic Administration
+
+Rector’s Cabinet
+
+1053 Budapest, Ferenciek tere 6.
+
+Tel.: +3614116500/2855
+
+Email: dataprotection@rk.elte.hu
+
+National Authority for Data Protection and Freedom of Information
+
+1374 Budapest, Pf. 603.
+
+www.naih.hu
+
+Tel.: +36-1-391-1400
+
+The court:
+
+You can sue for a claim according to your place of residence.

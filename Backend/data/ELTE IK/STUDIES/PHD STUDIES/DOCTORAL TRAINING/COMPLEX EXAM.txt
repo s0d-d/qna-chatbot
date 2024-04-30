@@ -1,0 +1,60 @@
+COMPLEX EXAM
+All PhD students must attend the complex exam (comprehensive examination) at the end of their 4th active semester.
+
+Application deadline: October 31 (autum semester) and 31 March (spring semester).
+
+Conditions to apply:
+
+-120 credits fulfilled by the end of the 4th semester (see the curriculum for more details)
+-attended 1 complex exam preparatory course
+
+How to apply? Please bring the following documents to Phd office (room 2.317):
+
+-filled application form
+-request regarding the chosen subjects
+-supervisor’s recommendation (the supervisor will submit it)
+
+The complex exam:
+
+-is a comprehensive evaluation of the student’s knowledge acquired in the training and research phase of the doctoral programme, and the student’s preparedness for the research and dissertation phase.
+-shall be taken in public, in front of an exam committee. The committee shall consist of at least three members.
+-has 2 main parts:
+ 1.) Theoretical part- oral exam from the 2 chosen subjects (20 minutes each)
+ 2.) Dissertation part- the examinee presents his/her research (20 minutes)
+ 
+If the student fails at the chosen subject(s), and/or the dissertation part, the compex exam can be retaken in the same examination period.
+ 
+Only students who pass the complex exam are entitled to continue their studies.
+Students who fail the complex exam will lose their student status at the end of the examination period.
+ 
+
+TITLE	FILE NAME	LAST MODIFIED	SIZE	
+Search
+Search
+Search
+Search
+1. Databases, knowledge bases, information systems (main subject)	1. Databases, knowledge bases, information systems (main subject).pdf	17.04.2018.	474.35 KB	
+4. Fourier analysis and its applications (main subject)	4. Fourier analysis and its applications (main subject).pdf	17.04.2018.	116.85 KB	
+5. IT security (main subject)	5. IT security (main subject).pdf	17.04.2018.	11.51 KB	
+7. Artificial intelligence (main subject)	7. Artificial intelligence (main subject).pdf	17.04.2018.	7.07 KB	
+14. Theoretical foundations of computer science (main subject)	14. Theoretical foundations of computer science (main subject).pdf	17.04.2018.	8 KB	
+15. Computer graphics (main subject)	15. Computer graphics (main subject).pdf	17.04.2018.	213.26 KB	
+a1. Data mining (recommended subject)	a1. Data mining (recommended subject).pdf	17.04.2018.	499.27 KB	
+a3. Approximation theory (recommended subject)	a3. Approximation theory (recommended subject).pdf	17.04.2018.	123.13 KB	
+a4. Bioinformatics (recommended subject)	a4. Bioinformatics (recommended subject).pdf	17.04.2018.	6.12 KB	
+a5. Numerical solution of differential equations (recommended subject)	a5. Numerical solution of differential equations (recommended subject).pdf	17.04.2018.	7.88 KB	
+a7. Models of computation and their application (recommended subject)	a7. Models of computation and their applications.pdf	17.04.2018.	8.45 KB	
+a8. Fractal geometry, chaos (recommended subject)	a8. Fractalgeometry, chaos (recommended subject).pdf	17.04.2018.	6.71 KB	
+a11. Information systems applications (recommended subject)	a11. Information systems applications (recommended subject).pdf	17.04.2018.	523.66 KB	
+a12. Image processing (Computer vision) recommended subject	a12. Image processing (recommended subject).pdf	17.04.2018.	148.85 KB	
+a14. Mathematical logic (recommended subject)	a14. Mathematical logic (recommended subject).pdf	17.04.2018.	5.17 KB	
+a15. Neural Computing (recommended subject)	a15. Neural computing (recommended subject).pdf	17.04.2018.	10.63 KB	
+a16. Programming technology (recommended subject)	a16. Programming technology (recommended subject).pdf	17.04.2018.	113.86 KB	
+a17. Temporal logic (recommended subject)	a17. Temporal logic (recommended subject).pdf	17.04.2018.	4.86 KB	
+a10. Information theory and coding (recommended subject)	a10. Information theory and coding (recommended subject).pdf	20.04.2018.	127.22 KB	
+10. Parallel and distributed systems (main subject)	10. Parallel and distributed system (main subject).pdf	26.04.2018.	7.87 KB	
+2. Design and analysis of algorithms (main subject)	2. Design and analysis of algorithms (main subject).pdf	23.05.2018.	177.94 KB	
+a19. Mathematics of Networks and the WWW (recommended subject)	a19. Mathematics of Networks and the WWW (recommended subject).pdf	06.02.2019.	167.25 KB	
+16. Computer systems (main subject)	16. Computer systems (main subject).pdf	24.05.2019.	115.18 KB	
+a2. Data structures and algorithms (recommended subject)	a2.Data structures and algorithms (recommended subject).pdf	28.05.2019.	69.18 KB	
+9. The Teaching Methodology of Information Technology (main subject)	9. The Teaching Methodology of Information Technology (main subject).pdf	28.05.2019.	546.05 KB	
