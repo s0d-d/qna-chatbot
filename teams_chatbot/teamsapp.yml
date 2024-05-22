@@ -84,11 +84,7 @@ deploy:
   - uses: cli/runNpmCommand
     name: install dependencies
     with:
-      args: install
-  - uses: cli/runNpmCommand
-    name: build app
-    with:
-      args: run build --if-present
+      args: install --production
   # Deploy your application to Azure App Service using the zip deploy feature.
   # For additional details, refer to https://aka.ms/zip-deploy-to-app-services.
   - uses: azureAppService/zipDeploy
@@ -139,4 +135,4 @@ publish:
     # the specified environment variable(s).
     writeToEnvironmentFile:
       publishedAppId: TEAMS_APP_PUBLISHED_APP_ID
-projectId: 0f2451fe-7afc-427c-b893-bdc5b250c5c7
+projectId: 05689f07-6afb-4b1b-9221-75f999cea783

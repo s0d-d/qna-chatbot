@@ -1,3 +1,5 @@
+// index.js is used to setup and configure your bot
+
 // Import required packages
 const restify = require("restify");
 
@@ -8,72 +10,70 @@ const {
   ConfigurationServiceClientCredentialFactory,
   ConfigurationBotFrameworkAuthentication,
 } = require("botbuilder");
-
-// This bot's main dialog.
-const app = require("./app");
+const { TeamsBot } = require("./teamsBot");
 const config = require("./config");
+
+// Create adapter.
+// See https://aka.ms/about-bot-adapter to learn more about adapters.
+const credentialsFactory = new ConfigurationServiceClientCredentialFactory({
+  MicrosoftAppId: config.botId,
+  MicrosoftAppPassword: config.botPassword,
+  MicrosoftAppType: "MultiTenant",
+});
 
 const botFrameworkAuthentication = new ConfigurationBotFrameworkAuthentication(
   {},
-  new ConfigurationServiceClientCredentialFactory({
-    MicrosoftAppId: config.botId,
-    MicrosoftAppPassword: process.env.BOT_PASSWORD,
-    MicrosoftAppType: "MultiTenant",
-  })
+  credentialsFactory
 );
 
-// Create adapter.
-// See https://aka.ms/about-bot-adapter to learn more about how bots work.
 const adapter = new CloudAdapter(botFrameworkAuthentication);
 
-// Catch-all for errors.
-const onTurnErrorHandler = async (context, error) => {
+adapter.onTurnError = async (context, error) => {
   // This check writes out errors to console log .vs. app insights.
   // NOTE: In production environment, you should consider logging this to Azure
-  //       application insights.
+  //       application insights. See https://aka.ms/bottelemetry for telemetry
+  //       configuration instructions.
   console.error(`\n [onTurnError] unhandled error: ${error}`);
 
   // Only send error message for user messages, not for other message types so the bot doesn't spam a channel or chat.
   if (context.activity.type === "message") {
-    // Send a trace activity, which will be displayed in Bot Framework Emulator
-    await context.sendTraceActivity(
-      "OnTurnError Trace",
-      `${error}`,
-      "https://www.botframework.com/schemas/error",
-      "TurnError"
-    );
-
     // Send a message to the user
-    await context.sendActivity("The bot encountered an error or bug.");
-    await context.sendActivity("To continue to run this bot, please fix the bot source code.");
+    await context.sendActivity(
+      `The bot encountered an unhandled error:\n ${error.message}`
+    );
+    await context.sendActivity(
+      "To continue to run this bot, please fix the bot source code."
+    );
   }
 };
 
-// Set the onTurnError for the singleton CloudAdapter.
-adapter.onTurnError = onTurnErrorHandler;
+// Create the bot that will handle incoming messages.
+const bot = new TeamsBot();
 
 // Create HTTP server.
 const server = restify.createServer();
 server.use(restify.plugins.bodyParser());
-
-server.listen(process.env.port || process.env.PORT || 3978, () => {
-  console.log(`\nBot Started, ${server.name} listening to ${server.url}`);
+server.listen(process.env.port || process.env.PORT || 3978, function () {
+  console.log(`\nBot started, ${server.name} listening to ${server.url}`);
 });
 
-// Listen for incoming server requests.
+// Listen for incoming requests.
 server.post("/api/messages", async (req, res) => {
-  // Route received a request to adapter for processing
   await adapter.process(req, res, async (context) => {
-    // Dispatch to application for routing
-    await app.run(context);
+    await bot.run(context);
+  });
+});
 
-    // Handle membersAdded event
-    if (context.activity.type === 'conversationUpdate' && context.activity.membersAdded) {
-      for (const member of context.activity.membersAdded) {
-        if (member.id !== context.activity.recipient.id) {
-          await context.sendActivity("Welcome to ELTE university chatbot! How can I assist you today?");
-        }
-      }
-    }
+// Gracefully shutdown HTTP server
+[
+  "exit",
+  "uncaughtException",
+  "SIGINT",
+  "SIGTERM",
+  "SIGUSR1",
+  "SIGUSR2",
+].forEach((event) => {
+  process.on(event, () => {
+    server.close();
   });
 });
