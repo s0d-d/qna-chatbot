@@ -28,12 +28,10 @@ $  cd  /path/to/project
 
 - To run your app locally, you can choose one of the options in _Development > Preview Your Teams App_. It will open the app in the testing tool or browser.
 
-- Additionally, if you want to use Teams App, you can download the app as zip package in _Utility > Zip Teams App Package_ section. Choose _manifest.json_ file and then _local_ environment.
-
-After downloading, you can go to Teams app. In the left menu bar, select in the following order _Apps > Manage your apps > Upload an app > Upload a custom app_ and choose your zip package. The zip package is in the _/path/to/project/teams_chatbot/appPackage/build/appPackage.local.zip_
+- (Optional) if you want to use Teams App, you can download the app as zip package in _Utility > Zip Teams App Package_ section. Choose _manifest.json_ file and then _local_ environment. After downloading, you can go to Teams app. In the left menu bar, select in the following order _Apps > Manage your apps > Upload an app > Upload a custom app_ and choose your zip package. The zip package is in the _/path/to/project/teams_chatbot/appPackage/build/appPackage.local.zip_
 
 ## How to run backend:
-
+> The description is not complete yet.
 - install requirements
 - download model from hugging face
 - move to models folder
