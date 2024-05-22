@@ -46,7 +46,8 @@ class TeamsBot extends TeamsActivityHandler {
     // Listen to MembersAdded event, view https://docs.microsoft.com/en-us/microsoftteams/platform/resources/bot-v3/bots-notifications for more events
     this.onMembersAdded(async (context, next) => {
       const membersAdded = context.activity.membersAdded;
-      const welcomeText = "Hello and welcome!";
+      const welcomeText =
+        "Welcome to ELTE university chatbot! How can I assist you today?";
       for (let member of membersAdded) {
         if (member.id !== context.activity.recipient.id) {
           await context.sendActivity(welcomeText);

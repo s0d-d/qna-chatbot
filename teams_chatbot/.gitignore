@@ -7,10 +7,10 @@ env/.env.dev
 .notification.localstore.json
 .notification.testtoolstore.json
 appPackage/build
-
+devTools/teamsapptester
 # dependencies
 node_modules/
-
+package-lock.json
 # misc
 .env
 .deployment
